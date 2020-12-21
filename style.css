@@ -1,0 +1,53 @@
+body{
+    background-color:lightslategrey;
+}
+#board-container{
+    margin-top: 3vmax;
+    display: grid;
+    grid-gap: 0.1vmax;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.board-item, .coin-item, .player1, .player2{
+    display: grid;
+    background-color: lightcoral;
+    justify-content: center;
+    height: 5vmax;
+    border-radius: 15px;
+    padding: 1vmax;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px #98002E;
+}
+.player1{
+    color: aliceblue;
+}
+img{
+    width: 5vmax;
+    height: 5vmax;
+}
+#players{
+    display: grid;
+    height: 2vmax;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1vmax;
+}
+#player1-count,#player2-count{
+    display: grid;
+    background-color: lightblue;
+    border-radius: 15px;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 5px 5px 5px #98002E;
+}
+#p1,#p2{
+    margin-left: 2vmax;
+    font-size: larger;
+}
+
+.ball{
+    height: 3vmax;
+    width: 3vmax;
+}
